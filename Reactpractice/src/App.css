@@ -2,13 +2,13 @@
     box-sizing: border-box;
     height: 400px;
     width: 300px;
-    background-color: beige;
+    background-color: rgb(201, 95, 47);
     /* display: contents; */
-    margin: 10px;
+    margin: 5px;
     border-radius: 10px;
     align-items: center;
     justify-content: center;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 body{
