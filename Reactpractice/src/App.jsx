@@ -4,10 +4,22 @@ import Products from './Products.jsx'
 import './App.css'
 import Ren from './Ren.json'
 import Rend from './Rend.jsx'
+import Header from './Header.jsx'
+import Student from './Student.json'
+import Students from './Students.jsx'
 
 const App = () => {
   return (
+    
     <div id="main">
+      <Header/>
+      <div id="Dati">
+        {Student.map((h)=>{
+          return(
+            <Students name={h.name} class={h.class} college={h.college}/>
+          )
+        })}
+      </div>
     <div id="parent">
       {Product.map((e)=>{
       return(

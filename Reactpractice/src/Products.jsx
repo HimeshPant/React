@@ -9,7 +9,9 @@ const Products = (props) => {
         <h2>{props.price}</h2>
         <h3>{props.discription}</h3>
         <h4>{props.category}</h4>
-        <H5>{PROPS.is_in_inventory}</H5>
+        <h5>{props.rate}</h5>
+        <h5>{props.count}</h5>
+        
         
 
 

@@ -9,8 +9,8 @@ const Rend = (props) => {
         <h3>{props.gender}</h3>
         <h3>{props.category}</h3>
         <h3>{props.price}</h3>
-        <h3>{is_in_inventory}</h3>
-        {/* <h3>{featured}</h3> */}
+        <h3>{props.is_in_inventory}</h3>
+        <h3>{props.slug}</h3>
 
     </div>
   )

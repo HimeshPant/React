@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 
 const Header = () => {
   return (
@@ -11,6 +12,7 @@ const Header = () => {
             <li>contact</li>
             </ul>
             <input type="button" placeholder="sign in"></input>
+            <input type="button" placeholder="sign up"></input>
 
     </div>
   )
