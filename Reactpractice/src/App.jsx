@@ -16,7 +16,7 @@ const App = () => {
       <div id="Dati">
         {Student.map((h)=>{
           return(
-            <Students name={h.name} class={h.class} college={h.college}/>
+            <Students name={h.name} class={h.class} college={h.college} />
           )
         })}
       </div>

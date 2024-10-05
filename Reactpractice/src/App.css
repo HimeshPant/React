@@ -30,10 +30,10 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-#main{
+/* #main{ */
     /* display: flex; */
     /* flex-wrap: wrap; */
-}
+/* } */
 img{
     height: 200px;
     width: 280px;
@@ -41,8 +41,17 @@ img{
     margin-top: 3px;
 
 }
-/* #header{
+#header{
     display: flex;
     background-color: bisque;
     
-}   */
+}  
+#stu{
+    background-color: blueviolet;
+    width: 400px;
+
+}
+#dati{
+    background-color: brown;
+
+}
