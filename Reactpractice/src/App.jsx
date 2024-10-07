@@ -7,12 +7,15 @@ import Rend from './Rend.jsx'
 import Header from './Header.jsx'
 import Student from './Student.json'
 import Students from './Students.jsx'
+import Loader from './Loader.jsx'
 
 const App = () => {
   return (
     
     <div id="main">
       <Header/>
+      <Loader/>
+      
       <div id="Dati">
         {Student.map((h)=>{
           return(
