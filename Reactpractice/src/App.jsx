@@ -8,13 +8,17 @@ import Header from './Header.jsx'
 import Student from './Student.json'
 import Students from './Students.jsx'
 import Loader from './Loader.jsx'
+import Dume from './Dume.jsx'
+
 
 const App = () => {
   return (
     
     <div id="main">
       <Header/>
+      <Dume/>
       <Loader/>
+      
       
       <div id="Dati">
         {Student.map((h)=>{
