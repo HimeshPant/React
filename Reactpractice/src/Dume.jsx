@@ -20,12 +20,13 @@ const Dume = () => {
   return (
     <div id="dumy">
         {
-        state.map((i)=>{
+        state.map((h)=>{
             return(
                 <div>
-                    <h1>{i.title}</h1>
-                    <h3>{i.category}</h3>
-                    <h2>{i.price}</h2>
+                    <h1>{h.title}</h1>
+                    <h3>{h.category}</h3>
+                    <h2>{h.price}</h2>
+                    
                 </div>
             )
 })
