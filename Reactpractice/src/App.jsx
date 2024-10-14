@@ -9,12 +9,14 @@ import Student from './Student.json'
 import Students from './Students.jsx'
 import Loader from './Loader.jsx'
 import Dume from './Dume.jsx'
+import Slider from './Slider.jsx'
 
 
 const App = () => {
   return (
     
     <div id="main">
+      <Slider/>
       <Header/>
       <Dume/>
       <Loader/>
