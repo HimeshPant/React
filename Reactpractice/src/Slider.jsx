@@ -41,7 +41,7 @@ const Slider = () => {
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
 >
-  <div>Item 1</div>
+  <div><img src="/public/imagemm.jpg" alt="" /></div>
   <div>Item 2</div>
   <div>Item 3</div>
   <div>Item 4</div>
